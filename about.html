@@ -7,8 +7,8 @@ header-img: "img/post-bg-starts.jpg"
 
 <!-- Language Selector -->
 <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 英文 English </option>
-    <option value="1"> 中文 Chinese </option>
+    <option value="1" selected> 英文 English </option>
+    <option value="0"> 中文 Chinese </option>
 </select>
 
 <!-- Chinese Version -->
@@ -71,13 +71,13 @@ header-img: "img/post-bg-starts.jpg"
         var _hash = window.location.hash;
         // en
         if(_hash == "#en"){
-            $select.selectedIndex = 0;
+            $select.selectedIndex = 1;
             $en.style.display = "block";
             $zh.style.display = "none";
         // en by default
         }else{
             // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 1;
+            $select.selectedIndex = 0;
             $zh.style.display = "block";
             $en.style.display = "none";
         }
@@ -85,7 +85,7 @@ header-img: "img/post-bg-starts.jpg"
 
     // handle select change
     function onLanChange(index){
-        if(index == 1){
+        if(index == 0){
             window.location.hash = "#zh"
         }else{
             window.location.hash = "#en"
