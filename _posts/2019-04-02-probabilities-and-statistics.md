@@ -15,7 +15,6 @@ tags: # 标签
 
 ---
 
-
 # 1.1 The Monty Hall problem
 
 The famous 'Monty Hall' problem is a classic example of **decision making under
@@ -78,11 +77,11 @@ good outcomes, but in the long run is far from optimal.
 - find predictive relationships between the factors and the potential outcomes.
 - seek to understand the problem.
 
-1.  Define mathematically the relationships;
-1.  Evaluate the significance of the predictive value of the relationships
-    found;
-1.  Quantitatively express the expected results or consequences of the decision
-    we are making.
+1. Define mathematically the relationships;
+1. Evaluate the significance of the predictive value of the relationships
+   found;
+1. Quantitatively express the expected results or consequences of the decision
+   we are making.
 
 # 1.3 Uncertainty in the news
 
@@ -258,10 +257,12 @@ $$
 
 where:
 
-$$ \hat{p}(x_i) = \frac{f_i}{\sum_{i=1}^K f_i} $$ 
+$$ \hat{p}(x_i) = \frac{f_i}{\sum_{i=1}^K f_i} $$
 
 are the **sample proportions** of the values $x_i$. The expected value of the
 random variable $X$ is:
+
+$$ E(X) = x_1 p_(x_1) + … + x_K p(x_K) = \sum_{i=1}^{K} x_i p(x_i). $$
 
 So $\overline{X}$ uses sample proportions, $\hat{p}(x_i)$, whereas $E(X)$ uses
 the population probabilities, $p(x_i)$.
@@ -272,13 +273,13 @@ the population probabilities, $p(x_i)$.
 
 $$ P(A|B) = \frac{P(B|A)P(A)}{P(B)}. $$
 
-$P(A)$ is a _priori_, $P(A|B)$ is the **Bayesian updated probability** (known as
+$P(A)$ is a _priori_, $P(A\|B)$ is the **Bayesian updated probability** (known as
 a **conditional probability** or a _posteriori_ probability), where '|' can be
 read as 'given', hence $A|B$ means '$A$ given $B$'.
 
 If two events are **mutually exclusive** (they cannot occur simultaneously) and
 **collectively exhaustive** (such as a die score must be even or odd), then we
-can view this as the _complementary_ event, denoted $B^c$, such that:
+can view one as the other's _complementary_ event, denoted $B^c$, such that:
 
 $$ P(B^c) = 1 - P(B) $$
 
@@ -287,7 +288,7 @@ and for some event $A$, then:
 
 [^1]: Technically, this is the division of the sample space into mutually exclusive and collectively exhaustive events.
 
-$$ P(B*k|A) = \frac{P(A|B_k)P(B_k)}{\sum*{i=1}^n P(A|B_i)P(B_i)}. $$
+$$ P(B_k|A) = \frac{P(A|B_k)P(B_k)}{\sum_{i=1}^n P(A|B_i)P(B_i)}. $$
 
 # 2.5 Parameters
 
