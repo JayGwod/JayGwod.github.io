@@ -351,7 +351,7 @@ Suppose we carry out **$n$ Bernoulli trials** such that:
 - different trials are statistically independent events.
 
 Let $X$ denote the total number of successes in these $n$ trials, then $X$
-follows a **binomial distribution** with parameters $n$ and $pi$, where
+follows a **binomial distribution** with parameters $n$ and $\pi$, where
 $n \geq
 1$ is a known integer and $0 \leq \pi \leq 1$. This is often written as:
 
@@ -390,7 +390,7 @@ The **probability function** of the Poisson distribution is:
 $$ P(X = x) = \left\{ \begin{array}{ll} e^{-\lambda}\lambda^{x}/x! & \text{for
 }x = 0,1,2,... \\ 0 & \text{otherwise} \end{array} \right. $$
 
-where $\lambda > 0$ is a parameter, $e$ is the exponential constant (ections --pdf-engine=xelatex -V CJKmainfont:'Source Han Serif SC'ue \approx
+where $\lambda > 0$ is a parameter, $e$ is the exponential constant ($e \approx
 2.71828$) and $x!$ is **'$x$ factorial'**, defined earlier as:
 
 $$ x! = x \times x - 1 \times x - 2 \times … \times 3 \times 2 \times 1. $$
@@ -398,11 +398,11 @@ $$ x! = x \times x - 1 \times x - 2 \times … \times 3 \times 2 \times 1. $$
 If a random variable $X$ has a Poisson distribution with parameter $\lambda$,
 this is often denoted by:
 
-$$ X \sim \text{Poisson}(\lambda) \text{ or } X \sim \text{Pois}(\lambda). $$
+$$ X \sim \text{Poisson}(\lambda) \quad \text{or} \quad X \sim \text{Pois}(\lambda). $$
 
 If $X \sim \text{Poisson}(\lambda)$, then:
 
-$$ E(X) \sim \lambda $$
+$$ E(X) = \lambda $$
 
 Poisson distributions are used for _counts_ of occurrences of various kinds. To
 give a formal motivation, suppose that we consider the number of occurrences of
