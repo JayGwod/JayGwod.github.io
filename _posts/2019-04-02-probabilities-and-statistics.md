@@ -1,6 +1,7 @@
 ---
 layout: post # 使用的布局（不需要改）
 title: Probability and Statistics
+subtitle: "Notes from MOOC -  Probability and Statistics: To p or not to p?"
 date: 2019-04-02
 author: Gwod # 作者
 mathjax: true
@@ -9,8 +10,11 @@ catalog: true # 是否归档
 tags: # 标签
 
 - Math
+- Probability
+- Statistics
 
 ---
+
 
 # 1.1 The Monty Hall problem
 
@@ -39,8 +43,8 @@ having more than one possible outcome.**
 
 The possible results from the decision are a function of two variables:
 
-1.  **internal variables**: we can control.
-1.  **external variables**: we cannot control.
+1. **internal variables**: we can control.
+1. **external variables**: we cannot control.
 
 Uncertain variables --> The uncertain outcome
 
