@@ -1,13 +1,13 @@
 ---
-layout: post # 使用的布局（不需要改）
+layout: post ### 使用的布局（不需要改）
 title: Probability and Statistics
 subtitle: "Notes from MOOC -  Probability and Statistics: To p or not to p?"
 date: 2019-04-02
-author: Gwod # 作者
+author: Gwod ### 作者
 mathjax: true
-header-img: img/post-bg-black-swan.jpg # 这篇文章标题背景图片
-catalog: true # 是否归档
-tags: # 标签
+header-img: img/post-bg-black-swan.jpg ### 这篇文章标题背景图片
+catalog: true ### 是否归档
+tags: ### 标签
 
 - Math
 - Probability
@@ -15,7 +15,7 @@ tags: # 标签
 
 ---
 
-# 1.1 The Monty Hall problem
+### 1.1 The Monty Hall problem
 
 The famous 'Monty Hall' problem is a classic example of **decision making under
 uncertainty**.
@@ -25,7 +25,7 @@ Upon revealing one of the doors you did not choose, you still face uncertainty -
 the only certainty is that the prize _must_ be behind one of the _two_ unopened
 doors.
 
-# 1.2 Decision making under uncertainty
+### 1.2 Decision making under uncertainty
 
 Decisions have to be taken in the present, with **uncertain future outcomes**.
 
@@ -51,9 +51,9 @@ For all decisions, we need to **determine the influencing factors** which could
 either be internal or external, then used to derive **expected results** or
 _consequences_.
 
-## _Qualitative_ analysis vs. _Quantitative_ analysis
+#### _Qualitative_ analysis vs. _Quantitative_ analysis
 
-### In a _qualitative_ analysis
+##### In a _qualitative_ analysis
 
 - the management team 'qualitatively' evaluates how each factor could affect the
   decision.
@@ -70,7 +70,7 @@ However, a qualitative approach inevitably is **susceptible to judgement and
 hence biases** on the part of the decision-makers. 'Gut instinct' _can_ lead to
 good outcomes, but in the long run is far from optimal.
 
-### In a _quantitative_ analysis
+##### In a _quantitative_ analysis
 
 - the evaluation becomes a process of **using mathematics and statistical
   techniques**.
@@ -83,7 +83,7 @@ good outcomes, but in the long run is far from optimal.
 1. Quantitatively express the expected results or consequences of the decision
    we are making.
 
-# 1.3 Uncertainty in the news
+### 1.3 Uncertainty in the news
 
 _News_ reports new **information about events** taking place in the world.
 
@@ -97,7 +97,7 @@ algorithmically**, with computers designed to scan the internet for news stories
 and interpret whether news reports contain any **useful information** which
 would allow a **revision of probabilistic beliefs**.
 
-# 1.4 Simplicity vs. Complexity - the need for models
+### 1.4 Simplicity vs. Complexity - the need for models
 
 **A model is a deliberate simplification of reality.** A good model retains the
 most important features of reality and ignores less important details. Broadly
@@ -114,7 +114,7 @@ determine whether or not a model is 'good', we must decide whether the benefit
 justifies the cost. **Resolving this benefit-cost trade-off is subjective** -
 further adding to life's complexities.
 
-# 1.5 Beware when model assumptions go wrong
+### 1.5 Beware when model assumptions go wrong
 
 To assist with the process of model building, we often make **assumptions** -
 usually _simplifying_ assumptions.
@@ -122,7 +122,7 @@ usually _simplifying_ assumptions.
 Beware assumptions - if you make a wrong or invalid assumption, then decisions
 you make in good faith may lead to outcomes far from what you expected.
 
-# 2.1 Probability principles
+### 2.1 Probability principles
 
 The first basic concepts in probability will be the following:
 
@@ -140,14 +140,14 @@ several _different_ **outcomes**. The **sample space** _S_ is the set of all
 possible outcomes of the experiment. An **event** is any subset _A_ of the
 sample space such that $A \subset S$, where $\subset$ denotes a subset.
 
-## Frequency interpretation of probability
+#### Frequency interpretation of probability
 
 This states that the probability of an outcome A of an experiment is the
 proportion ( **relative frequency** ) of trials in which A would be the outcome
 if the experiment was repeated a very large number of times under similar
 conditions.
 
-## How to find probabilities
+#### How to find probabilities
 
 A key question is how to determine appropriate numerical values, $P(A)$, for the
 probabilities of particular events.
@@ -169,7 +169,7 @@ basically applies the frequency definition to observed data.
 **The estimation of probabilities of events from observed data is an important
 part of statistics.**
 
-# 2.2 Simple probability distributions
+### 2.2 Simple probability distributions
 
 One can view probability as a quantifiable measure of one's degree of belief in
 particular **event**, or **set**, of interest.
@@ -180,7 +180,7 @@ to 1 inclusive. Hence the **probability of any event A**, say, is denoted
 $P(A) \in
 [0, 1]$, where '$\in$' means 'is a member of'.
 
-## Determining event probabilities for equally likely elementary outcomes
+#### Determining event probabilities for equally likely elementary outcomes
 
 **Classical probability** is a simple special case where values of probabilities
 can be found by just counting outcomes. This requires that:
@@ -204,7 +204,7 @@ In the classical case, the probability of any event can be determined by
 counting the number of outcomes which belong to the event, and the total number
 of possible outcomes.
 
-## Random variables
+#### Random variables
 
 A **random variable** is a 'mapping' of the elementary outcomes in the sample
 space to real numbers. This allows us to attach probabilities to the
@@ -212,7 +212,7 @@ experimental outcomes. Hence the concept of a random variable is that of a
 measurement which takes a particular value for each possible trial(experiment).
 Frequently, this will be a numerical value.
 
-## Probability distribution
+#### Probability distribution
 
 Be aware that random variables comes in two varieties - discrete and continuous.
 
@@ -226,7 +226,7 @@ For notational efficiency reasons, we often use a _capital_ letter to represent
 the random variable. In contrast, a _lower case_ letter denotes a particular
 _value_ of the random variable.
 
-# 2.3 Expectation of random variables
+### 2.3 Expectation of random variables
 
 If $x_1, x_2, …, x_N$ are the possible values of the random variable $X$, with
 corresponding probabilities $p(x_1), p(x_2), …, p(x_N)$, then:
@@ -240,7 +240,7 @@ Note that the expected value is also referred to as the **population mean**,
 which can be written as $E(X)$ (in words 'the expectation of the random variable
 X') or $\mu$ (in words 'the (population) mean of X').
 
-## Expected value versus sample mean
+#### Expected value versus sample mean
 
 The mean (expected value) $E(X)$ of a probability distribution is analogous to
 the sample mean (average) $\overline{X}$ of a sample distribution.
@@ -267,7 +267,7 @@ $$ E(X) = x_1 p_(x_1) + … + x_K p(x_K) = \sum_{i=1}^{K} x_i p(x_i). $$
 So $\overline{X}$ uses sample proportions, $\hat{p}(x_i)$, whereas $E(X)$ uses
 the population probabilities, $p(x_i)$.
 
-# 2.4 Bayesian updating
+### 2.4 Bayesian updating
 
 **Bayes' theorem**:
 
@@ -290,7 +290,7 @@ and for some event $A$, then:
 
 $$ P(B_k|A) = \frac{P(A|B_k)P(B_k)}{\sum_{i=1}^n P(A|B_i)P(B_i)}. $$
 
-# 2.5 Parameters
+### 2.5 Parameters
 
 Individual distributions _within_ a family differ in having different values of
 the **parameters** of the distribution. The parameters determine the mean and
@@ -343,7 +343,7 @@ were to draw a large random sample from this distribution.
 Different members of this family of distribution differ in terms of the value of
 $\pi$.
 
-# 2.6 The distribution zoo
+### 2.6 The distribution zoo
 
 Suppose we carry out **$n$ Bernoulli trials** such that:
 
@@ -380,7 +380,7 @@ $$ \binom{n}{x} = \frac{n!}{x!(n-x)!} $$
 where $k! = k \times (k - 1) \times … \times 3 \times 2 \times 1$, for an
 integer $k > 0$. Also note that $0! = 1$.
 
-## Poisson distribution
+#### Poisson distribution
 
 The possible values of the **Poisson distribution** are the non-negative
 integers 0, 1, 2, ...
@@ -429,7 +429,7 @@ $X \sim
 The single parameter $\lambda$ of the Poisson distribution is, therefore, the
 $rate$ of occurrences per unit of time.
 
-## Connections between probability distributions
+#### Connections between probability distributions
 
 There are close connections between some probability distributions, even across
 different families of them:
@@ -439,7 +439,7 @@ different families of them:
 - **approximate** (or **asymptotic**): one is closely approximated by another
   under some limiting conditions.
 
-## Poisson approximation of the binomial distribution
+#### Poisson approximation of the binomial distribution
 
 Suppose that:
 
@@ -458,7 +458,7 @@ in such a way that $n
 This **'law of small numbers'** provides another motivation for the Poisson
 distribution.
 
-# 3.1 Classify your variables
+### 3.1 Classify your variables
 
 **Measurable variable**: there is a generally recognised method of determining
 its value. The numbers which we then obtain come ready-equipped with an order
@@ -471,7 +471,7 @@ types:
 1. **Discrete** data: things you can _count_.
 1. **Continuous** data: things you can _measure_.
 
-## Categorical vs. Measurable variables
+#### Categorical vs. Measurable variables
 
 - **Measurable variables**
 - **Categorical variables**
@@ -479,7 +479,7 @@ types:
   - **ordinal** (categorical) variables: can be put in some sensible order.
   - **nominal** (categorical) variables: cannot be put in any sensible order.
 
-## Nominal categorical variables
+#### Nominal categorical variables
 
 The numbers (values) serve only as labels or tags for identifying and
 classifying cases. When used for **identification**, there is a strict
@@ -491,7 +491,7 @@ Statistics:
 
 - based on frequency counts, such as percentages and the mode
 
-## Ordinal categorical variables
+#### Ordinal categorical variables
 
 An ordinal variable has a **ranking scale** in which numbers are assigned to
 cases to indicate the relative extent to which the cases possess some
@@ -506,7 +506,7 @@ Statistics:
 - based on frequency counts, such as percentages and the mode
 - based on centiles, such as percentiles, quartiles and the median
 
-## Interval measurable variables
+#### Interval measurable variables
 
 Interval-level variables have scales where numerically equal distances on the
 scale represent equal value differences in the characteristic being measured.
@@ -523,7 +523,7 @@ Statistics:
 - based on centiles, such as percentiles, quartiles and the median
 - in addition statistics, such as the mean and standard deviation
 
-## Ratio measurable variables
+#### Ratio measurable variables
 
 Ratio-level variable possess all the properties of nominal, ordinal and interval
 variables. A ratio variable has an absolute zero point and it is meaningful to
@@ -534,7 +534,7 @@ positive constant, are allowed.
 
 All statistical techniques can be applied to ratio data.
 
-# 3.2 Data visualisation
+### 3.2 Data visualisation
 
 Statistical analysis may have two broad aims.
 
@@ -561,7 +561,7 @@ _Columns_ of the data matrix correspond to **variables**, i.e. different
 characteristics of the units. Here, region, the level of democracy, and GDP per
 capita are the variables.
 
-## Sample distribution
+#### Sample distribution
 
 The **sample distribution** of a variable consists of:
 
@@ -577,7 +577,7 @@ show the whole sample distribution of all the values and their frequencies.
 is like a bar chart, but without gaps between bars, and often uses more bars
 (intervals of values) than is sensible in a table.
 
-## Associations between two variables
+#### Associations between two variables
 
 An **association** between the variables: whether some values of one variable
 tend to occur frequently together with particular values of another.
@@ -599,7 +599,7 @@ A (two-way) **contingency table** (or **cross-tabulation**) shows the frequencie
 in the sample of each possible *combination* of the values of two categorical variables.
 Such tables often show the percentages within each *row* or *column* of the table.
 
-# 3.3 Descriptive statistics - measures of central tendency
+### 3.3 Descriptive statistics - measures of central tendency
 
 **Summary (descriptive) statistics**: summarise (describe) *one* feature of the sample
 distribution in a single number.
@@ -610,16 +610,16 @@ distribution in a single number.
 - **median**
 - **mode**
 
-## Notation for variables
+#### Notation for variables
 
 In formulae, a generic variable is denoted by a single letter. A letter with a
 subscript denotes a single observation of a variable.
 
-## The sample mean
+#### The sample mean
 
 $$ \overline{X} = \frac{\sum_{i=1}^{n} X_i}{n} = \frac{1}{n} \sum_{i=1}^{n} X_i. $$
 
-## Why is the mean a good summary of the central tendency?
+#### Why is the mean a good summary of the central tendency?
 
 $$ \sum_{i=1}^{n} (X_i - \overline{X}) = 0. $$
 
@@ -629,7 +629,7 @@ When summed over all the observations, positive and negative values of the
 Also, the smallest possible value of the sum of *squared* deviations $\sum_{i=1}^{n} (X_i - C)^2$
 for any constant $C$ is obtained when $C = \overline{X}$.
 
-## The sample median
+#### The sample median
 
 Let $X_{(1)}, X_{(2)}, ..., X_{(n)}$ denote the sample vales of $X$ when *ordered*
 from the smallest to the largest, known as the *order statistics*, such that:
@@ -644,7 +644,7 @@ If $n$ is odd, then $q_{50} = X_{((n+1)/2)}$.
 
 If $n$ is even, then $q_{50} = (X_{(n/2)} + X_{(n/2 + 1)})/2$.
 
-## Sensitivity to outliers
+#### Sensitivity to outliers
 
 In general, the mean is affected much more than the median by outliers, i.e. unusually
 small or large observations.
@@ -653,7 +653,7 @@ small or large observations.
 - For a negatively-skewed distribution, the mean is smaller than the median.
 - For an exactly symmetric distribution, the mean and median are equal.
 
-## The sample mode
+#### The sample mode
 
 The **(sample) mode** of a variable is the value which has the highest frequency (i.e.
 appears most often) in the data.
@@ -661,9 +661,9 @@ appears most often) in the data.
 A variable can have several modes (i.e. be multimodal). The mode is the only measure
 of central tendency which can be used even when the values of a variable have no ordering.
 
-# 3.4 Descriptive statistics - measures of spread
+### 3.4 Descriptive statistics - measures of spread
 
-## Variance and standard deviation
+#### Variance and standard deviation
 
 The first measures of **dispersion**, the **sample variance** and its square root,
 the **sample standard deviation**, are based on $(X_i - \overline{X})^2$, i.e. the squared deviations from the mean.
@@ -686,7 +686,7 @@ such as the 'normal' distribution:
   $\overline{X} + 2 \times S$, that is, within two (sample) standard deviations
   about the (sample) mean.
 
-## Sample quantiles
+#### Sample quantiles
 
 The median, $q_{50}$, is basically the value which divides the sample into the smallest
 50% of observations and the largest 50%. If we consider other percentage splits,
@@ -705,7 +705,7 @@ Sensitivity | Range | IQR
 :---|---:|---:
 Outliers| $\checkmark$| $\times$
 
-## Boxplots
+#### Boxplots
 
 A **boxplot** (in full, a box-and-whiskers plot) summarises some key features of
 a sample distribution using quantiles. The plot is comprised of the following.
@@ -730,7 +730,7 @@ below is of GDP per capita using the sample of 155 counties.
 
 ![The boxplot of GDP per capita using the sample of 155 countries](https://ws2.sinaimg.cn/large/006tKfTcly1g1bvlkqhgej31ak0u07aw.jpg)
 
-# 3.5 The normal distribution
+### 3.5 The normal distribution
 
 The **normal distribution** is by far the most important probability distribution in statistics.
 This is for three broad reason.
@@ -763,7 +763,7 @@ variances.
 
 ![three normal distributions with different means and/or variances.](https://ws3.sinaimg.cn/large/006tKfTcly1g1e54d9n31j30vw0u0jvq.jpg)
 
-## Linear transformation of the normal distribution
+#### Linear transformation of the normal distribution
 
 If $X$ is *normally* distributed, then so is the $\text{linear transformation } Y = aX + b$, where $a$
 and $b$ are constants. In other words, if $X \sim N(\mu, \sigma^2)$, then:
@@ -784,7 +784,7 @@ are $P(Z \leq -z) = P(Z \geq z)$, by symmetry of the distribution about zero.
 
 ![tail probabilities for the standard normal distribution](https://ws1.sinaimg.cn/large/006tKfTcly1g1e644pq2xj30vl0u0gob.jpg)
 
-# 3.6 Variance of random variables
+### 3.6 Variance of random variables
 
 We distinguished between two different types of variance:
 
@@ -803,7 +803,7 @@ $$ P(a < X \leq b) = P(\frac{a - \mu}{\sigma} < \frac{X - \mu}{\sigma} \leq \fra
 where $\Phi (k) = P(Z \leq k)$ for some value $k$ and is known as a cumulative probability.
 This process is known as **standardisation**.
 
-## Some probabilities around the mean
+#### Some probabilities around the mean
 
 ![Some probabilities around the mean](https://ws1.sinaimg.cn/large/006tKfTcly1g1e9p1p3yfj30xo0u041a.jpg)
 
@@ -818,7 +818,7 @@ time beyond $\pm 3$ (which we could classify as an **extreme outlier**). Values
 beyond four standard deviations from the mean (i.e. beyond $\pm 4$ on a
 standardised scale) could be considered as **black swan events**.
 
-# 4.1 Introduction to sampling
+### 4.1 Introduction to sampling
 
 Sampling is a key component of any research design. The key to the use of statistics
 is being able to take data from a sample and make inferences about about a large
@@ -826,7 +826,7 @@ population. This idea is depicted below.
 
 ![take data from a sample and make inferences about a large population](https://ws2.sinaimg.cn/large/006tKfTcly1g1eb8ych42j314i0ngakc.jpg)
 
-## Sample or census?
+#### Sample or census?
 
 - **Population** - The aggregate of all the elements, sharing some common set of
   characteristics, which comprise the universe for the purpose of the problem being
@@ -860,7 +860,7 @@ Cost of non-sampling errors | High | Low
 Nature of measurement | Destructive | Non-destructive
 Attention to individual cases | Yes | No
 
-## Classification of sampling techniques
+#### Classification of sampling techniques
 
 **Target population**: the collection of elements or objects which possess the information
 sought by the researcher and about which inferences are to be made.
@@ -870,30 +870,30 @@ Sampling techniques:
 - **non-probability sampling techniques**
 - **probability sampling techniques**
 
-## Non-probability sampling techniques
+#### Non-probability sampling techniques
 
 Some units in the population do not have a chance of selection in the sample,
 other individual units in the population have an *unknown probability of being selected*.
 There is also an inability to measure sampling error.
 
-### Convenience sampling
+##### Convenience sampling
 
 Convenience sampling attempts to obtain a sample of convenient elements (hence the name!).
 Often, respondents are selected because they happen to be in the right place at the
 right time.
 
-### Judgemental sampling
+##### Judgemental sampling
 
 The population elements are selected based on the judgement of the researcher.
 
-### Quota sampling
+##### Quota sampling
 
 Quota sampling may be viewed as two-stage restricted judgemental sampling:
 
 - The fist stage: develop control categories, or **quota controls**, of population elements.
 - The second stage: select sample elements based on convenience or judgement.
 
-### Snowball sampling
+##### Snowball sampling
 
 In snowball sampling an initial group of respondents is selected, usually at random.
 After being interviewed, these respondents are asked to identify others who belong
@@ -907,7 +907,7 @@ Judgemental sampling | low cost, convenient, not particularly time-consuming and
 Quota sampling       | can controll a sample for certain characteristics                                                 | it suffers from selection bias and there is no guarantee of representativeness of the sample
 Snowball sampling    | increase the chance of locating the desired characteristic in the population                      | time-consuming
 
-# 4.2 Random sampling
+### 4.2 Random sampling
 
 **Sample surveys** (hereafter 'surveys') are how new data are collected on a
 population and tend to be based on samples rather than a census.
@@ -916,7 +916,7 @@ Sampling error will occur (since not all population units are observed). However
 non-sampling error should be less since resources can be used to ensure high quality
 interviews or to check completed questionnaires.
 
-## Types of error
+#### Types of error
 
 - **Sampling error** occurs as a result of us selecting a sample, rather than performing
   a census.
@@ -936,7 +936,7 @@ Both kinds of error can be controlled or allowed for more effectively by a
 - to find the standard error
 - to sort out non-sampling questions
 
-## Probability sampling
+#### Probability sampling
 
 Probability sampling techniques mean every population element has a known,
 non-zero probability of being selected in the sample. Probability sampling makes
@@ -952,7 +952,7 @@ frame is:
 1. accurate (are we researching dynamic populations?)
 1. convenient (is the sampling frame readily accessible?)
 
-## Simple random sampling (SRS)
+#### Simple random sampling (SRS)
 
 In a simple random sample each element in the population has a known and equal
 probability of selection. This implies that every element is selected *independently*
@@ -962,9 +962,9 @@ SRS is simple to understand and results are readily projectable. However, there
 may be difficulty constructing the sampling frame, lower precision (relative to
 other probability sampling methods) and there is no guarantee of sample representativeness.
 
-# 4.3 Further random sampling
+### 4.3 Further random sampling
 
-## Systematic sampling
+#### Systematic sampling
 
 In systematic sampling, the sample is chose by selecting a *random* starting point
 and then picking every $i$th element in succession from the sampling frame. The
@@ -977,7 +977,7 @@ of the elements produces a **cyclical pattern**, systematic sampling may actuall
 *decrease the representativeness of the sample*. It is easier to implement relative
 to SRS.
 
-## Stratified sampling
+#### Stratified sampling
 
 Stratified sampling is a two-step process in which the population is
 partitioned (divided up) into subpopulations known as **strata** ('Strata' is the
@@ -1011,7 +1011,7 @@ level of precision. However, sometimes it might be difficult to select relevant
 stratification factors and the stratification process itself might not be
 feasible in practice if it was not known to which stratum each population element belonged.
 
-## Cluster sampling
+#### Cluster sampling
 
 In cluster sampling the target population is first divided into mutually
 exclusive and collectively exhaustive subpopulations known as **clusters.**
@@ -1030,7 +1030,7 @@ sampling unit in a selected cluster varies inversely with the size of the cluste
 Cluster sampling is easy to implement and cost effective. However, the technique
 suffers from a lack of precision and it can be difficult to compute and interpret results.
 
-## Multistage sampling
+#### Multistage sampling
 
 In multistage sampling selection is performed at two or more successive stages.
 This technique is often adopted in large surveys. At the first stage, large
@@ -1042,7 +1042,7 @@ sampling the main clusters, and then clusters within clusters etc. We can also
 use multistage sampling with mixed techniques, i.e. cluster sampling at Stage 1
 and stratified sampling at Stage 2 etc.
 
-# 4.4 Sampling distributions
+### 4.4 Sampling distributions
 
 A **simple random sample** is a sample selected by a process where every
 possible sample (of the same size, $n$) has the same probability of selection.
@@ -1073,7 +1073,7 @@ estimator is to the population parameter of interest.
 $\overline{X}$ (which is a random variable) is our estimator of $\mu$, and the
 observed value of $\overline{X}$, denoted $\overline{x}$, is a point estimate.
 
-# 4.5 Sampling distribution of the sample mean
+### 4.5 Sampling distribution of the sample mean
 
 An important difference between a sampling distribution and other distributions is that the
 values in a sampling distribution are summary measures of whole samples (i.e. statistics, or
@@ -1128,12 +1128,12 @@ $$ \text{Var}(\overline{X}) = \frac{N-n}{N-1}\times\frac{\sigma^2}{n} \approx \f
 for small $n/N$. When $N$ is large, it is the sample size $n$ which is important
 in determining precision, *not* the sampling fraction.
 
-## Sampling from the normal distribution
+#### Sampling from the normal distribution
 
 When the distribution of $X$ is *normal*, the sampling distribution of $\overline{X}$
 is also normal.
 
-# 4.6 Confidence intervals
+### 4.6 Confidence intervals
 
 A **point estimate** (such as a sample mean, $\overline{x}$) is our ‘best guess’ of an
 unknown population parameter (such as a population mean, $\mu$) based on sample data.
@@ -1165,7 +1165,7 @@ Here $\overline{x}$ is the sample mean, $\sigma$ is the population standard
 deviation, $s$ is the sample standard deviation, $n$ is the sample size and $z$
 is the **confidence coefficient**, reflecting the confidence level.
 
-## Influences on the margin of error
+#### Influences on the margin of error
 
 More simply, we can view the confidence interval for a mean as:
 
@@ -1182,7 +1182,7 @@ $$ \text{as }n \uparrow \quad \Rightarrow \quad \text{margin of error} \downarro
 $$ \text{as }\sigma \uparrow \quad \Rightarrow \quad \text{margin of error} \uparrow \quad \Rightarrow \quad \text{width} \uparrow $$
 $$ \text{as confidence level} \uparrow \quad \Rightarrow \quad \text{margin of error} \uparrow \quad \Rightarrow \quad \text{width} \uparrow $$
 
-## Confidence coefficients
+#### Confidence coefficients
 
 For a 95% confidence interval, z = 1.96, leading to:
 
@@ -1196,7 +1196,7 @@ normal distribution**.
 - For 95% confidence, use the confidence coefficient z = 1.960.
 - For 99% confidence, use the confidence coefficient z = 2.576.
 
-# 5.1 Statistical juries
+### 5.1 Statistical juries
 
 **Hypothesis testing**: decision theory whereby we make a binary decision between
 two competing hypotheses:
@@ -1205,7 +1205,7 @@ $$ \text{H}_0 = \text{the null hypothesis} \quad \text{and} \quad \text{H}_1 = \
 
 The binary decision is whether to **'reject $\text{H}_0$'** or **'fail to reject $\text{H}_0$'**.
 
-# 5.2 Type I and Type II errors
+### 5.2 Type I and Type II errors
 
 In any hypothesis test there are two types of **inferential decision error**
 which could be committed.
@@ -1244,7 +1244,7 @@ $\text{H}_1$ true    | $P(\text{Type II error}) = \beta$ | $\text{Power} = 1 - \
 
 If you decrease $\alpha$ you increase $\beta$ and vice-versa. Hence there is a trade-off.
 
-## Significance level
+#### Significance level
 
 In general we test at the $100\alpha\%$ significance level, for $\alpha \in [0, 1]$. The
 default choice is $\alpha = 0.05$, i.e. we test at the 5% significance level.
@@ -1261,7 +1261,7 @@ confidence level**.[^5] For example:
 - a 95% confidence level equates to a 5% significance level
 - a 99% confidence level equates to a 1% significance level.
 
-# 5.3 $P$-values, effect size and sample size influences
+### 5.3 $P$-values, effect size and sample size influences
 
 A **$p$-value** is the probability of the event that the 'test statistic' takes
 the observed value or more extreme (i.e. more unlikely) values under $\text{H}_0$.
@@ -1278,7 +1278,7 @@ Remember:
 
 $$ \text{not reject} \neq \text{accept} $$
 
-## Interpretation of $p$-values
+#### Interpretation of $p$-values
 
 In practice the statistical analysis of data is performed by computers using
 statistical or econometric software packages. Regardless of the specific hypothesis
@@ -1300,7 +1300,7 @@ Clearly, the magnitude of the $p$-value (compared with $\alpha$) determines
 whether or not $\text{H}_0$ is rejected. Therefore, it is important to consider
 **two key influences** on the magnitude of the $p$-value: the effect size and the sample size.
 
-## Effect size influence
+#### Effect size influence
 
 The **effect size** reflects the difference between what you would *expect* to 
 observe if the null hypothesis is true and what is *actually* observed in a 
@@ -1315,7 +1315,7 @@ $p$-value gets smaller** (and so is more likely to be below $\alpha$).
 **Sensitivity analysis**: we consider the pure influence of the effect size on
 the $p$-value while controlling for (fixing) the sample size.
 
-## Sample size influence
+#### Sample size influence
 
 Other things equal, **a larger sample size should lead to a more representative 
 random sample** and the characteristics of the sample should more closely 
@@ -1333,7 +1333,7 @@ hence we see that we can unilaterally increase the power of a test by
 increasing the sample size. Of course, the trade-off would be the increase in 
 data collection costs!
 
-# 5.4 Testing a population mean claim
+### 5.4 Testing a population mean claim
 
 We consider the **hypothesis test of a population mean** in the context of a 
 claim made by a manufacturer.
@@ -1344,7 +1344,7 @@ in *identical* quantities of water in each bottle. The labels on each bottle may
 state '1000ml' but this equates to a **claim about the average contents** 
 of all bottles produced (in the population of bottles).
 
-## Calculation of the sample mean from the raw observations
+#### Calculation of the sample mean from the raw observations
 
 A random sample of $n=12$ bottles resulted in the measurements (in ml): 
 992, 1002, 1000, 1001, 998, 999, 1000, 995, 1003, 1001, 997 and 997.
@@ -1353,7 +1353,7 @@ Calculate the sample mean in our random sample:
 
 $$ \overline{x} = (992+1002+1000+1001+998+999+1000+995+1003+1001+997+997)/12 = 998.75 $$
 
-## Formulation of the hypotheses, $\text{H}_{0}$ and $\text{H}_{1}$
+#### Formulation of the hypotheses, $\text{H}_{0}$ and $\text{H}_{1}$
 
 It is assumed that the true variance of water in all bottles is $\sigma^2 = 1.5$, 
 and that the amount of water in bottles is normally distributed. Let $X$ denote 
@@ -1373,7 +1373,7 @@ claim $\mu = 500$ is:
 
 **Determination of the $p$-value** will allow us to choose between explanations (a) and (b).
 
-## Calculation of the test statistic value
+#### Calculation of the test statistic value
 
 We proceed by **standardising** $\overline{X}$ such that:
 
@@ -1388,7 +1388,7 @@ $p$-value):
 
 $$ \frac{1000 - 998.75}{\sqrt{1.5}/\sqrt{12}} \approx 3.5. $$
 
-## Calculation of the $p$-value
+#### Calculation of the $p$-value
 
 The $p$-value is the probability of our test statistic value or a more extreme
 value conditional on $\text{H}_0$. Noting that $\text{H}_1:\mu \neq 1000$, 'more extreme' here
@@ -1397,18 +1397,18 @@ distribution about zero, this can be expressed as:
 
 $$ p\text{-value} = P(Z \geq \mid 3.5 \mid) = 0.00046. $$
 
-## A decision of whether or not to reject $\text{H}_{0}$
+#### A decision of whether or not to reject $\text{H}_{0}$
 
 Recall the **$p$-value decision rule**, and since 0.00046 < 0.05 we reject $\text{H}_0$ and
 conclude that the result 'statistically significant' at the 5% significance level
 (and also, of course, at the 1% significance level).
 
-## An inferential conclusion about what the test result means
+#### An inferential conclusion about what the test result means
 
 Hence there is (strong) evidence that $\mu \neq 1000$. Since $\overline{x} < \mu$
 we might go further and suppose that $\mu < 1000$.
 
-## Indication of which type of error might have occurred
+#### Indication of which type of error might have occurred
 
 As we have rejected $\text{H}_0$ this means of two things:
 
@@ -1418,7 +1418,7 @@ As we have rejected $\text{H}_0$ this means of two things:
 Although the $p$-value is very small, indicating it is *highly unlikely* that is
 a Type I error, unfortunately we cannot be *certain* which outcome has actually occurred!
 
-# 5.5 The central limit theorem
+### 5.5 The central limit theorem
 
 In essence, the **central limit theorem (CLT)** states that the normal sampling 
 distribution of which holds *exactly* for random samples from a normal distribution,
@@ -1442,7 +1442,7 @@ The **'$\lim_{n \rightarrow \infty}$'** indicates that this is an **asymptotic**
 result, i.e. one which holds increasingly well as $n$ increases, and exactly
 when the sample size is infinite.
 
-## The wide reach of the CLT
+#### The wide reach of the CLT
 
 It may appear that the CLT is still somewhat limited, in that it applies only to sample means
 calculated from random samples. However, this is not really true, for two main reasons.
@@ -1455,11 +1455,11 @@ calculated from random samples. However, this is not really true, for two main r
 Therefore, the CLT can also be used to derive sampling distributions for many statistics which
 do not initially look at all like $\overline{X}$ for a single random variable in a random sample.
 
-## How large is 'large n'?
+#### How large is 'large n'?
 
 **For many distributions, $n > 50$ is sufficient for the approximation to be reasonably accurate.**
 
-# 5.6 Proportions: confidence intervals and hypothesis testing
+### 5.6 Proportions: confidence intervals and hypothesis testing
 
 The (approximate) sampling distribution of the sample proportion:
 
@@ -1469,13 +1469,13 @@ as $n \rightarrow \infty$.
 
 We will now use this result to conduct **statistical inference for proportions**.
 
-## Confidence intervals
+#### Confidence intervals
 
 A confidence interval for a proportion is given by:
 
 $$ p \pm z \times \sqrt{\frac{p(1-p)}{n}}. $$
 
-# 6.1 Decision tree analysis
+### 6.1 Decision tree analysis
 
 **Decision tree analysis** is an interesting modelling technique which allow us
 to incorporate probabilities in the decision-making process to model and quantify
@@ -1514,12 +1514,12 @@ The EMV is simply an expected value, and so in this discrete setting we apply ou
 usual probability-weighted average approach. Hence the **optimal (recommended)
 strategy** is to advertise, since this results in a higher expected payoff.
 
-# 6.2 Risk
+### 6.2 Risk
 
 In practice people care about risk and tend to factor it into their decision making.
 Of course, different people have different attitudes to risk so we can profile people’s risk appetite as follows.
 
-## Degrees of risk aversion
+#### Degrees of risk aversion
 
 A decision-maker is **risk-averse** if s/he prefers the certain outcome of £x over a 
 risky project with a mean (EMV) of £x.
@@ -1533,7 +1533,7 @@ an uncertain outcome with the same expected monetary value.
 The **certainty equivalent (CE)** of a risky project is the amount of money which makes 
 the decision-maker indifferent between receiving this amount for sure and the risky project.
 
-## Risk premium
+#### Risk premium
 
 The **risk premium** (of a risky project) is defined as:
 
@@ -1550,7 +1550,7 @@ $$ \text{EMV} > \text{CE} \quad \Rightarrow \quad \text{risk-loving.} $$
 
 **If risk-neutral, the decision-maker uses the EMV criterion as seen in Section 6.1.**
 
-# 6.3 Linear regression
+### 6.3 Linear regression
 
 **Linear regression analysis** is one of the most frequently-used statistical techniques.
 It aims to model an explicit relationship between one **dependent variable**, denote as
@@ -1560,7 +1560,7 @@ denoted as $x_1,...,x_p$.
 The goal of regression analysis is to **understand** how $y$ depends on $x_1,...,x_p$
 and to **predict** or control the unobserved $y$ based on the observed $x_1,...,x_p$.
 
-## Example
+#### Example
 
 In a university town, the sales, $y$, of 10 pizza parlour restaurants are closely
 to the student population, $x$, ion their neighbourhoods.
@@ -1592,7 +1592,7 @@ Consumption            | Income
 Salary                 | Tenure
 Daughter's height      | Mother's height
 
-## The simple linear regression model
+#### The simple linear regression model
 
 We now present the simple linear regression model. Let the paired observations
 $(x_1,y_1),...,(x_n,y_n)$ be drawn from the model:
@@ -1610,7 +1610,7 @@ course on regression you would consider the following questions:
 - **How accurate is the fitted line?**
 - **What is the error in predicting a future $y$?**
 
-## Example
+#### Example
 
 We can apply the simple linear regression model to study the relationship between 
 two series of financial returns – a regression of a stock’s returns, $y$, on the
@@ -1650,33 +1650,32 @@ Some remarks are the following:
    through *hedging*.
 1. Variance is a simple measure (and one of the most frequently-used) of risk in finance.
 
-
 So the **'beta' of a stock is a simple measure of the riskiness of that stock** 
 with respect to the market index. By definition, the market index has $\beta = 1$.
 
 If a stock has a beta of 1, then:
 
-$$ \text{if the market index } \uparrow \text{by 1\%, then the stock } \uparrow \text{by 1\%} $$
+$$ \text{if the market index } \uparrow \text{by 1%, then the stock } \uparrow \text{by 1%} $$
 
 and:
 
-$$ \text{if the market index } \downarrow \text{by 1\%, then the stock } \downarrow \text{by 1\%} $$
+$$ \text{if the market index } \downarrow \text{by 1%, then the stock } \downarrow \text{by 1%} $$
 
 If a stock has a beta of 2, then:
 
-$$ \text{if the market index } \uparrow \text{by 1\%, then the stock } \uparrow \text{by 2\%} $$
+$$ \text{if the market index } \uparrow \text{by 1%, then the stock } \uparrow \text{by 2%} $$
 
 and:
 
-$$ \text{if the market index } \downarrow \text{by 1\%, then the stock } \downarrow \text{by 2\%} $$
+$$ \text{if the market index } \downarrow \text{by 1%, then the stock } \downarrow \text{by 2%} $$
 
 If a stock has a beta of 0.5, then:
 
-$$ \text{if the market index } \uparrow \text{by 1\%, then the stock } \uparrow \text{by 0.5\%} $$
+$$ \text{if the market index } \uparrow \text{by 1%, then the stock } \uparrow \text{by 0.5%} $$
 
 and:
 
-$$ \text{if the market index } \downarrow \text{by 1\%, then the stock } \downarrow \text{by 0.5\%} $$
+$$ \text{if the market index } \downarrow \text{by 1%, then the stock } \downarrow \text{by 0.5%} $$
 
 In summary:
 
@@ -1688,7 +1687,7 @@ $$ \text{if } \beta < 1 \quad \Rightarrow \quad \text{defensive stocks} $$
 
 as market movements are muted in the stock’s returns.
 
-# 6.4 Linear programming
+### 6.4 Linear programming
 
 Linear programming is probably one of the most-used type of **quantitative 
 business model**. It can be applied in any environment where **finite resources** 
@@ -1698,7 +1697,7 @@ must be allocated to competing activities or processes for maximum benefit, for 
 - allocating a fixed budget between competing departments
 - allocating lorries to routes to minimise the transportation costs incurred by a distribution company.
 
-## Optimisation models
+#### Optimisation models
 
 All optimisation models have several common elements.
 
@@ -1709,7 +1708,7 @@ All optimisation models have several common elements.
 - **Constraints** which must be satisfied – physical, logical or economic restrictions,
   depending on the nature of the problem.
 
-## Solving optimisation problems
+#### Solving optimisation problems
 
 The first step is the **model development step**. You must decide:
 
@@ -1726,7 +1725,7 @@ The second step is to **optimise**.
 The third step is to perform a **sensitivity analysis** – to what extent is the 
 final solution *sensitive* to parameter values used in the model.
 
-# 6.5 Monte Carlo simulation
+### 6.5 Monte Carlo simulation
 
 Trying different solutions is **expensive** and/or **risky**. For example:
 
