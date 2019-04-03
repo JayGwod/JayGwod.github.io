@@ -513,7 +513,7 @@ scale represent equal value differences in the characteristic being measured.
 The location of the **zero point** is not fixed - both the zero point and the
 units of measurement are arbitrary.
 
-Any **positive linear transformation** of the form \$y = a + bx\* will preserve
+Any **positive linear transformation** of the form $y = a + bx$ will preserve
 the properties of the scale, hence it is not meaningful to take ratios of scale
 values.
 
@@ -574,7 +574,7 @@ show the whole sample distribution of all the values and their frequencies.
 **Bar chart**: the graphical equivalent of the table of frequencies.
 
 **Histogram**(most common graph for a variable which has many distinct values):
-is like a bar chart, but without gaps between bars, and often uses more bars
+like a bar chart, but without gaps between bars, it often uses more bars
 (intervals of values) than is sensible in a table.
 
 #### Associations between two variables
@@ -701,9 +701,9 @@ are given below.
 - **range**: $X_{(n)} - X_{(1)} = \text{maximum} - \text{minimum}$
 - **interquartile range (IQR)**: $\text{IQR} = q_{75} - q_{25} = Q_3 - Q_1$.
 
-Sensitivity | Range | IQR
-:---|---:|---:
-Outliers| $\checkmark$| $\times$
+|                         | Range        | IQR
+| :---                    | ---:         | ---:
+| **Sensitivity to Outliers** | $\checkmark$ | $\times$
 
 #### Boxplots
 
@@ -808,7 +808,9 @@ This process is known as **standardisation**.
 ![Some probabilities around the mean](https://ws1.sinaimg.cn/large/006tKfTcly1g1e9p1p3yfj30xo0u041a.jpg)
 
 $$ P(-1 \leq Z \leq 1) \approx 0.683 $$
+
 $$ P(-2 \leq Z \leq 2) \approx 0.950 $$
+
 $$ P(-3 \leq Z \leq 3) \approx 0.997 $$
 
 Hence, on a standardised basis, it is very easy to determine whether a value is
