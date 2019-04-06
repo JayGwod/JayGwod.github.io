@@ -277,11 +277,11 @@ $P(A)$ is a _priori_, $P(A\|B)$ is the **Bayesian updated probability** (known a
 a **conditional probability** or a _posteriori_ probability), where '|' can be
 read as 'given', hence $A|B$ means '$A$ given $B$'.
 
-If two events are **mutually exclusive** (they cannot occur simultaneously) and
-**collectively exhaustive** (such as a die score must be even or odd), then we
-can view one as the other's _complementary_ event, denoted $B^c$, such that:
+If events $A$ and $B$ are **mutually exclusive** (they cannot occur simultaneously)
+and **collectively exhaustive** (such as a die score must be even or odd), then we
+can view $A$ as the $B$'s _complementary_ event, denoted $B^c$, such that:
 
-$$ P(B^c) = 1 - P(B) $$
+$$ P(A) = P(B^c) = 1 - P(B) $$
 
 For a general **partition**[^1] of the sample space $S$ into $B_1, B_2, …, B_n$,
 and for some event $A$, then:
@@ -904,9 +904,9 @@ these referrals.
 
 Types                | Strengths                                                                                         | Weaknesses
 :---                 | :---:                                                                                             | :---:
-Convenience sampling | cheapest, quickest and most convenient                                                            | selecition bias and lack of a representative sample
-Judgemental sampling | low cost, convenient, not particularly time-consuming and good for 'exploratiry' research designs | not allow generalisations and is subjevtive due to the judgement of the researcher
-Quota sampling       | can controll a sample for certain characteristics                                                 | it suffers from selection bias and there is no guarantee of representativeness of the sample
+Convenience sampling | cheapest, quickest and most convenient                                                            | selection bias and lack of a representative sample
+Judgemental sampling | low cost, convenient, not particularly time-consuming and good for 'exploratory' research designs | not allow generalisations and is subjective due to the judgement of the researcher
+Quota sampling       | can control a sample for certain characteristics                                                  | it suffers from selection bias and there is no guarantee of representativeness of the sample
 Snowball sampling    | increase the chance of locating the desired characteristic in the population                      | time-consuming
 
 ### 4.2 Random sampling
@@ -929,7 +929,7 @@ interviews or to check completed questionnaires.
   - **Selection bias**:
     1. the sampling frame not being equal to the target population
     1. in cases where the sampling scheme is not strictly adhered to
-    1 .non-response bias
+    1. non-response bias
   - **Response bias**: wrong measurements or interviewer bias.
 
 Both kinds of error can be controlled or allowed for more effectively by a
@@ -982,7 +982,7 @@ to SRS.
 #### Stratified sampling
 
 Stratified sampling is a two-step process in which the population is
-partitioned (divided up) into subpopulations known as **strata** ('Strata' is the
+partitioned (divided up) into subpopulations known as **strata** ('strata' is the
 plural of 'stratum').
 
 The strata should be mutually exclusive and collectively exhaustive in that every
@@ -1064,13 +1064,11 @@ values using the (known) sample data.
 We use a statistic (called an **estimator**) calculated from sample observations
 to provide a **point estimate** of a parameter.
 
-A **frequency distribution**: That is, we record the frequency of each possible
-value of $\overline{x}$.
-
-This is known as the **sampling distribution** of $\overline{X}$. The sampling
-distribution is a central and vital concept in statistics. It can be used to
-evaluate how 'good' an estimator is. Specifically, we care about how 'close' the
-estimator is to the population parameter of interest.
+The **sampling distribution** of $\overline{X}$ is a **frequency distribution** which is
+the frequency of each possible value of $\overline{x}$. It is a central and vital
+concept in statistics, and can be used to evaluate how 'good' an estimator is.
+Specifically, we care about how 'close' the estimator is to the population
+parameter of interest.
 
 $\overline{X}$ (which is a random variable) is our estimator of $\mu$, and the
 observed value of $\overline{X}$, denoted $\overline{x}$, is a point estimate.
@@ -1181,7 +1179,9 @@ Therefore, we see that there are **three influences on the size of the margin of
 error** (and hence on the width of the confidence interval). Specifically:
 
 $$ \text{as }n \uparrow \quad \Rightarrow \quad \text{margin of error} \downarrow \quad \Rightarrow \quad \text{width} \downarrow $$
+
 $$ \text{as }\sigma \uparrow \quad \Rightarrow \quad \text{margin of error} \uparrow \quad \Rightarrow \quad \text{width} \uparrow $$
+
 $$ \text{as confidence level} \uparrow \quad \Rightarrow \quad \text{margin of error} \uparrow \quad \Rightarrow \quad \text{width} \uparrow $$
 
 #### Confidence coefficients
