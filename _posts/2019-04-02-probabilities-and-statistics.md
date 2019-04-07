@@ -1672,7 +1672,7 @@ $$ \text{if the market index } \uparrow \text{by 1%, then the stock } \uparrow \
 
 and:
 
-$$ \text{if the market index } \downarrow \text{by 1%, then the stock } \downarrow \text{by 1%} $$
+$$ \text{if the market index } \downarrow \text{by 1%, then the stock } \downarrow \text{by 1%}. $$
 
 If a stock has a beta of 2, then:
 
@@ -1680,7 +1680,7 @@ $$ \text{if the market index } \uparrow \text{by 1%, then the stock } \uparrow \
 
 and:
 
-$$ \text{if the market index } \downarrow \text{by 1%, then the stock } \downarrow \text{by 2%} $$
+$$ \text{if the market index } \downarrow \text{by 1%, then the stock } \downarrow \text{by 2%}. $$
 
 If a stock has a beta of 0.5, then:
 
@@ -1688,7 +1688,7 @@ $$ \text{if the market index } \uparrow \text{by 1%, then the stock } \uparrow \
 
 and:
 
-$$ \text{if the market index } \downarrow \text{by 1%, then the stock } \downarrow \text{by 0.5%} $$
+$$ \text{if the market index } \downarrow \text{by 1%, then the stock } \downarrow \text{by 0.5%}. $$
 
 In summary:
 
