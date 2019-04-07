@@ -1353,9 +1353,10 @@ A random sample of $n=12$ bottles resulted in the measurements (in ml):
 
 Calculate the sample mean in our random sample:
 
-$$ \overline{x} = (992+1002+1000+1001+998+999+1000+995+1003+1001+997+997)/12 = 998.75 $$
+$$ \overline{x} = \frac{992+1002+1000+1001+998+999+1000+995+1003+1001+997+997}{12}
+= 998.75 $$
 
-#### Formulation of the hypotheses, $\text{H}_{0}$ and $\text{H}_{1}$
+#### Formulation of the hypotheses, $\text{H}_0$ and $\text{H}_1$
 
 It is assumed that the true variance of water in all bottles is $\sigma^2 = 1.5$, 
 and that the amount of water in bottles is normally distributed. Let $X$ denote 
@@ -1368,9 +1369,10 @@ and we wish to test:
 $$ \text{H}_{0}: \mu = 1000 \text{ml} \quad \text{vs.} \quad \text{H}_{1}: \mu \neq 1000ml. $$
 
 The question is whether the difference between $\overline{x} = 998.75$ and the 
-claim $\mu = 500$ is:
+claim $\mu = 1000$ is:
 
 (a) **due to sampling error** (and hence $\text{H}_0$ is true)?
+
 (b) **statistically significant** (and hence $\text{H}_1$ is true)?
 
 **Determination of the $p$-value** will allow us to choose between explanations (a) and (b).
@@ -1477,6 +1479,12 @@ A confidence interval for a proportion is given by:
 
 $$ p \pm z \times \sqrt{\frac{p(1-p)}{n}}. $$
 
+#### Hypothesis testing
+
+We proceed by standardising P such that:
+
+$$ Z = \frac{P - \pi}{\sqrt{\pi(1 - \pi)/n}} \sim N(0, 1) $$
+
 ### 6.1 Decision tree analysis
 
 **Decision tree analysis** is an interesting modelling technique which allow us
@@ -1542,13 +1550,16 @@ The **risk premium** (of a risky project) is defined as:
 $$ \text{EMV} - \text{CE}. $$
 
 Interpretation: The amount of money the decision-maker is willing to pay to 
-receive a safe payoff of X rather than face the risky project with an expected payoff of X.
+receive a safe payoff of $X$ rather than face the risky project with an expected
+payoff of $X$.
 
 Risk profiles can be determined using the following:
 
-$$ \text{EMV} < \text{CE} \quad \Rightarrow \quad \text{risk-averse} $$
+$$ \text{EMV} > \text{CE} \quad \Rightarrow \quad \text{risk-averse} $$
+
 $$ \text{EMV} = \text{CE} \quad \Rightarrow \quad \text{risk-neutral} $$
-$$ \text{EMV} > \text{CE} \quad \Rightarrow \quad \text{risk-loving.} $$
+
+$$ \text{EMV} < \text{CE} \quad \Rightarrow \quad \text{risk-loving.} $$
 
 **If risk-neutral, the decision-maker uses the EMV criterion as seen in Section 6.1.**
 
@@ -1565,7 +1576,7 @@ and to **predict** or control the unobserved $y$ based on the observed $x_1,...,
 #### Example
 
 In a university town, the sales, $y$, of 10 pizza parlour restaurants are closely
-to the student population, $x$, ion their neighbourhoods.
+to the student population, $x$, in their neighbourhoods.
 
 ![the sales (in thousands of pounds) in a period of three months together with the numbers of students (in thousands) in their neighbourhoods](https://ws2.sinaimg.cn/large/006tKfTcly1g1jkxweh1wj30k20pc0v3.jpg)
 
@@ -1770,8 +1781,10 @@ To perform a Monte Carlo simulation we proceed as follows.
   of risk.
 
 Of course, the quality of these expected outcome and risk estimates is only as 
-good as the model used. What if the true probability distributions were different? 
-What if revenues and costs were correlated? What if other factors affected profit as well?
+good as the model used. If a company wants to analyse the investment with the
+uncertain revenues and costs given by the certain probability distributions. What
+if the true probability distributions were different? What if revenues and costs
+were correlated or uncorrelated? What if other factors affected profit as well?
 
 Clearly, in practice we would wish to conduct a **sensitivity analysis** to see 
 how sensitive (or robust) the distribution of the outcome variable is to such issues.
