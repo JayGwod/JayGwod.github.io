@@ -15,6 +15,34 @@ tags: ### 标签
 
 ---
 
+Probability and Statistics is a very important prerequisite course in the field
+of Machine Learning and Artificial Intelligence, nearly all the relevant courses need it
+as an essential part of the basis, such as [cs224n at Stanford](http://web.stanford.edu/class/cs224n/index.html#schedule):
+
+- Proficiency in Python
+- College Calculus, Linear Algebra
+- **Basic Probability and Statistics**
+- Foundations of Machine Learning
+
+where it requires "basics of probabilities, gaussian distributions, mean,
+standard deviation, etc." Although I have learned Probability a long time ago,
+it is still necessary to refresh and build a big picture with Statistics. For the reason that
+I didn't learn Statistics systematically previously and I didn't want to spend too
+much time on this topic, just a "basic" overview course was enough to help me to achieve
+this target. Through comparing many open courses online, I found that Dr James Abdey's course "Probability and
+Statistics: To p or not to p?" provided by Coursera satisfied my needs very well.
+Therefore I studied this course seriously and then posted my notes on this blog.
+
+In this course, Dr James Abdey combined the core concepts of Probability and Statistics
+closely and covered all the heart topics, including quantifying uncertainty with
+probability, descriptive statistics, point and interval estimation of means and
+proportions, the basics of hypothesis testing, and a selection of multivariate
+applications of key terms and concepts seen throughout the course. I have sorted
+out the materials as follows, which may help you get the key points quickly and
+build a global picture of this subject. Besides this, it is also readable to get
+knowledge of decision making under uncertainty. The thinking of Statistics perhaps
+benefits you for a lifetime.
+
 ### 1.1 The Monty Hall problem
 
 The famous 'Monty Hall' problem is a classic example of **decision making under
