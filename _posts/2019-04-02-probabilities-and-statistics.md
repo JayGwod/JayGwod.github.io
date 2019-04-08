@@ -1453,7 +1453,7 @@ a Type I error, unfortunately we cannot be *certain* which outcome has actually 
 ### 5.5 The central limit theorem
 
 In essence, the **central limit theorem (CLT)** states that the normal sampling 
-distribution of which holds *exactly* for random samples from a normal distribution,
+distribution of $\overline{X}$ which holds *exactly* for random samples from a normal distribution,
 also holds *approximately* for random samples from *nearly any* distribution.
 
 The CLT applies to 'nearly any' distribution because it requires that the variance of the
