@@ -15,6 +15,8 @@ tags: ### 标签
 
 ---
 
+<meta name="referrer" content="no-referrer" />
+
 Probability and Statistics is a very important prerequisite course in the field
 of Machine Learning and Artificial Intelligence, nearly all the relevant courses need it
 as an essential part of the basis, such as [cs224n at Stanford](http://web.stanford.edu/class/cs224n/index.html#schedule):
